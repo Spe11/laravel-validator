@@ -10,7 +10,7 @@ if (! function_exists('rules')) {
     }
 }
 
-if (! function_exists('for')) {
+if (! function_exists('field')) {
     /**
      * Create validator for field
      */
