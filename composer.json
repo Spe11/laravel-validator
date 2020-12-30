@@ -1,0 +1,22 @@
+{
+    "name": "spe11/laravel-validator",
+    "description": "Helper package for laravel validation rules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Spe11",
+            "email": "Serg41-lineage@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spe11\\LaravelValidator\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    }
+}
