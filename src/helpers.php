@@ -6,7 +6,7 @@ if (! function_exists('rules')) {
      */
     function rules(...$validators): array
     {
-        return Validator::make(...$validators)->toArray();
+        return Spe11\LaravelValidator\Validator::make(...$validators)->toArray();
     }
 }
 
@@ -14,8 +14,8 @@ if (! function_exists('field')) {
     /**
      * Create validator for field
      */
-    function field(string $field): FieldRules
+    function field(string $field): Spe11\LaravelValidator\FieldRules
     {
-        return Validator::for($field);
+        return Spe11\LaravelValidator\Validator::for($field);
     }
 }
